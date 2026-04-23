@@ -1,0 +1,28 @@
+@import url(reset.css);
+@import url(input_select.css);
+@import url(btn.css);
+@import url(popup.css);
+
+/*--------------scroll----------------*/
+textarea::-webkit-scrollbar,
+.con_scroll::-webkit-scrollbar,
+.table_scroll::-webkit-scrollbar,
+.scroll_s::-webkit-scrollbar,
+.overflow_x::-webkit-scrollbar,
+.wrap *::-webkit-scrollbar {
+  width: 4px;
+  height: 12px;
+  border-radius: 8px;
+  background-color: #f3f3f3;
+  border-color: #f3f3f3;
+}
+
+textarea::-webkit-scrollbar-thumb,
+.con_scroll::-webkit-scrollbar-thumb,
+.table_scroll::-webkit-scrollbar-thumb,
+.scroll_s::-webkit-scrollbar-thumb,
+.overflow_x::-webkit-scrollbar-thumb,
+.wrap *::-webkit-scrollbar-thumb {
+  background-color: #7a7a7a;
+  border-radius: 8px;
+}

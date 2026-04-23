@@ -1,0 +1,97 @@
+/*---input&select----*/
+.inputbox {
+  position: relative;
+  width: auto;
+  display: inline-block;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='number'],
+input[type='search'],
+input[type='date'],
+input[type='month'],
+input[type='time'],
+textarea {
+  width: 100%;
+  border: 1px solid #c7c7c7;
+  background-color: #ffffff;
+  height: 3.2rem;
+  border-radius: 0.4rem;
+  font-size: 1.4rem !important;
+  color: #111111;
+  padding: 0 0.8rem;
+}
+
+textarea {
+  /* padding: 0.8rem !important; */
+  line-height: 2rem;
+}
+
+input[type='password'] {
+  padding-right: 3.4rem;
+}
+
+input[type='text']:hover,
+input[type='password']:hover,
+input[type='number']:hover,
+input[type='search']:hover,
+input[type='date']:hover,
+input[type='month']:hover,
+input[type='time']:hover,
+textarea:hover {
+  border-color: #111111;
+  color: #111111;
+}
+
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='number']:focus,
+input[type='search']:focus,
+input[type='date']:focus,
+input[type='month']:focus,
+input[type='time']:focus,
+textarea:focus {
+  border-color: #0055ff;
+}
+
+input[type='text']:read-only,
+input[type='password']:read-only,
+input[type='number']:read-only,
+input[type='search']:read-only,
+input[type='date']:read-only,
+input[type='month']:read-only,
+input[type='time']:read-only,
+textarea:read-only {
+  background-color: #f1f5ff;
+  pointer-events: none;
+}
+
+input[type='text']:disabled,
+input[type='password']:disabled,
+input[type='number']:disabled,
+input[type='search']:disabled,
+input[type='date']:disabled,
+input[type='month']:disabled,
+input[type='time']:disabled,
+textarea:disabled {
+  color: #c7c7c7;
+  background-color: #f5f5f5;
+}
+
+input[type='text'].error,
+input[type='password'].error,
+input[type='number'].error,
+input[type='search'].error,
+textarea.error {
+  border-color: #ff6666;
+}
+
+input[type='text']::placeholder,
+input[type='password']::placeholder,
+input[type='number']::placeholder,
+input[type='search']::placeholder,
+textarea::placeholder {
+  color: #c7c7c7;
+  font-size: 1.4rem;
+}

@@ -1,0 +1,142 @@
+/*-----common_btn------*/
+.btn {
+  display: inline-block;
+  height: 3.2rem;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.4rem;
+  background-color: #0055ff;
+  color: #fff;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
+  white-space: nowrap;
+}
+.btn:hover {
+  background-color: #094edb;
+}
+.btn:active {
+  background-color: #111;
+}
+.btn.disabled {
+  background-color: #dfdfdf !important;
+  cursor: default !important;
+  pointer-events: none;
+}
+
+/* password */
+.btn.btn_password {
+  position: absolute;
+  right: 0.2rem;
+  top: 0rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  background-image: url(../images/icon_hide.png);
+  background-position: center center;
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.btn.btn_password.open {
+  background-image: url(../images/icon_see.png);
+}
+
+/* button color */
+/* gray1 */
+.btn.bg_gray {
+  background-color: #6e7b95;
+}
+.btn.bg_gray:hover {
+  background-color: #5f6a80;
+}
+.btn.bg_gray:active {
+  background-color: #445067;
+}
+
+/* gray2 */
+.btn.bg_gray2 {
+  background-color: #6e7b95;
+}
+.btn.bg_gray2:hover {
+  background-color: #5f6a80;
+}
+.btn.bg_gray2:active {
+  background-color: #445067;
+}
+
+/* grayline */
+.btn.gray_line {
+  padding: 0.8rem 1rem;
+  color: #6e7b95;
+  background-color: #ffffff;
+  border: 1px solid #c7c7c7;
+}
+.btn.gray_line:hover {
+  color: #6e7b95;
+  background-color: #f2f5f7;
+  border: 1px solid #c7c7c7;
+}
+.btn.gray_line:active {
+  color: #6e7b95;
+  background-color: #e8ebed;
+  border: 1px solid #c7c7c7;
+}
+.btn.gray_line:disabled {
+  color: #c7c7c7;
+  background-color: #ffffff;
+  border: 1px solid #c7c7c7;
+  cursor: default;
+}
+
+/* blueline */
+.btn.blue_line {
+  color: #0055ff;
+  background-color: #ffffff;
+  border: 1px solid #0055ff;
+}
+.btn.blue_line:hover {
+  color: #0055ff;
+  background-color: #f2f5f7;
+  border: 1px solid #0055ff;
+}
+.btn.blue_line:active {
+  color: #0055ff;
+  background-color: #e8ebed;
+  border: 1px solid #0055ff;
+}
+.btn.blue_line:disabled {
+  color: #c7c7c7;
+  background-color: #ffffff;
+  border: 1px solid #c7c7c7;
+  cursor: default;
+}
+
+/* size */
+.btn.xsmall {
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  border-radius: 6px;
+}
+.btn.small {
+  height: 2.4rem;
+  line-height: 2.4rem;
+  font-size: 1.2rem;
+  border-radius: 6px;
+}
+.btn.middle {
+  min-width: 12rem;
+  height: 3.2rem;
+  line-height: 3.2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 0 1.2rem;
+  border-radius: 4px;
+}
+.btn.big {
+  min-width: 24rem;
+  height: 5.6rem;
+  line-height: 5.6rem;
+  padding: 0 2.9rem;
+  font-size: 2.4rem;
+}
